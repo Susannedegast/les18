@@ -1,0 +1,54 @@
+/* For mobile phones: */
+@media only screen and (min-width:40em){
+[class*="col-"] {
+  width: 100%;
+}
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+body{
+font-family:arial,sans-serif;
+}
+
+.header{
+text-align: center;
+background-image: url("https://almere20.nl/wp-content/uploads/2021/03/Skyline-Almere-vanaf-Floriadeterrein.jpg");
+min-height: 200px;
+background-color: #FFE5CC;
+color: white;
+background-size: cover;
+}
+
+.feitjes{
+float:left; width: 20%;
+min-height: 450px;
+background-color: #FFCC99;
+color: white;
+}
+
+.teksten{
+float:right; width: 80%;
+min-height: 450px;
+background-color: #FFCCCC;
+color: white;
+}
+
+.footer{
+  clear: left;
+    width: 100%;
+    text-align: center;
+    min-height: 100px;
+    background-color: #FFE5CC;
+    color: white;
+    }
